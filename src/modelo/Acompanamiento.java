@@ -13,7 +13,8 @@ public class Acompanamiento implements Costeable {
     public String getNombre() { return nombre; }
     public double getPrecio() { return precio; }
 
-    public double calcularPrecio() {
+    @Override 
+    public double calcularCosto() {
         return precio;
     }
 }
